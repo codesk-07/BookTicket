@@ -9,6 +9,7 @@ app.use(express.json());
 // Import routes
 const userRoutes = require('./routes/userRoutes');
 const busRoutes = require('./routes/busRoutes');
+require("./models");
 
 // Mount routes
 app.use('/users', userRoutes);

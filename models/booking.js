@@ -22,7 +22,7 @@ const Booking = sequeliz.define('Booking',{
     }
 },
 {
-      tableName: 'buses',
+      tableName: 'Booking',
     timestamps: false
 });
 module.exports= Booking;

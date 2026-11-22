@@ -23,7 +23,7 @@ const Payment = sequeliz.define('Payment' ,
         }
     },
     {
-      tableName: 'buses',
+      tableName: 'Payment',
     timestamps: false
 
     });
